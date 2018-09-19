@@ -14,7 +14,6 @@
  *
  * @return return 0
  */
-
 int main() {
   printPosition();
   return 0;

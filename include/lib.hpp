@@ -9,17 +9,18 @@
 #ifndef INCLUDE_LIB_HPP_
 #define INCLUDE_LIB_HPP_
 
+// including C++ library files
 #include <iostream>
 #include <string>
 
 /**
  * @brief searchPosition
  *
- * @param[in] first As main string
- * @param[in] second As substring
+ * @param[in] first As reference to main string
+ * @param[in] second As reference to substring
  *
  * @section DESCRIPTION
- * This function returns the position of the first occurrence of the substring to search from the main string.
+ * This function returns the position of the first occurrence of the substring from the main string.
  *
  * @return return position of substring as integer or -1 if not found
  */
@@ -37,7 +38,7 @@ auto searchPosition(const std::string& text,
  *
  * @section DESCRIPTION
  * This function initializes the main string and the substring to search from the main string.
- * It calls the function name searchPosition() which returns the value of position in Integer form.
+ * It calls the function named searchPosition() which returns the value of position in Integer form.
  *
  * @return return none
  */
