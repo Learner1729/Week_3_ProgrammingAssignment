@@ -12,8 +12,6 @@ Using C++ Boilerplate as a base project to develop Week 3 programming assignment
 ```
 git clone --recursive https://github.com/Learner1729/cpp-boilerplate
 cd <path to repository>
-git branch -a
-git checkout Week_3
 mkdir build
 cd build
 cmake ..
