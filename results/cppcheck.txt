@@ -1,0 +1,10 @@
+Checking app/main.cpp...
+1/2 files checked 17% done
+Checking include/lib.hpp...
+2/2 files checked 100% done
+
+----------------------------------------
+Command used to get above output:
+
+cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $( find . -name \*.cpp -or -name \*.hpp | grep -vE -e "^./build/" -e "^./vendor/" ) >> results/cppcheck.txt
+

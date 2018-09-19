@@ -1,0 +1,6 @@
+Done processing ./app/main.cpp
+Done processing ./include/lib.hpp
+
+----------------------------------
+Command used to obtain above result:
+cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./docs/" -e "^./results" ) 2> results/cpplint.txt

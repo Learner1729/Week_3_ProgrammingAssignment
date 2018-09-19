@@ -23,7 +23,8 @@
  *
  * @return return position of substring as integer or -1 if not found
  */
-auto searchPosition(const std::string& text, const std::string& array_to_search1) -> decltype(text.size()) {
+auto searchPosition(const std::string& text,
+  const std::string& array_to_search1) -> decltype(text.size()) {
   auto position1 = text.find(array_to_search1);
   if (position1 != std::string::npos)
     return position1;
@@ -44,10 +45,10 @@ void printPosition() {
   std::string text = "1234567890";
   std::string array_to_search1 = "23";
   auto position = searchPosition(text, array_to_search1);
-  if(position != -1)
-    std::cout << "Position :" << position << std::endl;
+  if (position != -1)
+    std::cout << "Position :" << position;
   else
-    std::cout << "Substring is not present in a given main string..." << std::endl;
+    std::cout << "Substring is not present in a given main string...";
 }
 
-#endif // INCLUDE_LIB_HPP_
+#endif  // INCLUDE_LIB_HPP_
