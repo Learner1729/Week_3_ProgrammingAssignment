@@ -10,7 +10,7 @@ Using C++ Boilerplate as a base project to develop Week 3 programming assignment
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/Learner1729/cpp-boilerplate
+git clone --recursive https://github.com/Learner1729/Week_3_ProgrammingAssignment.git
 cd <path to repository>
 mkdir build
 cd build
